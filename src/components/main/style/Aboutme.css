@@ -1,0 +1,63 @@
+.aboutme{
+  background-color: #003566;
+  width: 100%;
+  height: 450px;
+  position: relative;
+
+  .aboutme__info{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+
+    .aboutme__icon{
+      border-radius: 81% 19% 63% 37% / 77% 48% 52% 23% ;
+      width: 350px;
+      height: 300px;
+      background-color: #FFD60A;
+      box-shadow: 5px 20px 4px #00000040;
+      z-index: 1;
+    }
+
+    .aboutme__text{
+      width: 400px;
+      font-size: 1.1em;
+    }
+
+  }
+  .aboutme__divFloat{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-color: #003566;
+    bottom: -165px;
+    z-index: -1;
+  }
+
+  .aboutme__float{
+    background-image: url('../../../../public/socrative.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+  }
+
+  .aboutme__float--1{
+    top: 0;
+    left: 50px;
+  }
+  .aboutme__float--2{
+    top: 100px;
+    right: 10px;
+    transform: rotate(90deg);
+  }
+  .aboutme__float--3{
+    top: 40%;
+    left: 40%;
+    transform: rotate(90deg)
+  }
+}

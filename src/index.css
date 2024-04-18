@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+  li{
+    display: inline-block;
+  }
+}
+
+a{
+  text-decoration: none;
+  font-style: none;
+
+  &:active{
+    color: white;
+  }
+
+  &:visited{
+    color: white;
+  }
+}
+
+*::after{
+  font-style: none;
+}

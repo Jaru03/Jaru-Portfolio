@@ -1,0 +1,52 @@
+.header{
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 2;
+  
+  .navbar{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+    .navbar__logo{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-image: url('../jaruLogo.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .navbar__list{
+      display: flex;
+      gap: 1em;
+    }
+
+    .navbar__toggles{
+      display: flex;
+      gap: 1em;
+      
+      .navbar__toggle{
+        width: 30px;
+        height: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .navbar__toggle--darkmode{
+        background-image: url('../sol.png');
+      }
+      
+      .navbar__toggle--lenguaje{
+        background-image: url('../inglaterra.png');
+      }
+    }
+  }
+}

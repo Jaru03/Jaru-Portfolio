@@ -1,0 +1,69 @@
+.proyects{
+  width: 100%;
+  position: relative;
+    .proyects__tittle{
+      padding-bottom: 40px;
+    }
+    
+    .container__card{
+      width: 80%;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      gap: 1.5em 3em;
+      flex-wrap: wrap;
+
+      .proyectCard{
+        width: 250px;
+        height: 180px;
+        background-color: grey;
+        border-radius: 10px;
+      }
+    }
+  .proyects__icon{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .proyects__icon--1{
+    top: 0;
+    left: 0;
+    background-image: url('../../../../public/iconGit.png');
+  }
+  .proyects__icon--2{
+    top: 200px;
+    left: 350px;
+    background-image: url('../../../../public/iconGitHub.png');
+  }
+  .proyects__icon--3{
+    top: 400px;
+    left: 50px;
+    background-image: url('../../../../public/iconHtml.png');
+  }
+  .proyects__icon--4{
+    top: 300px;
+    right: 0;
+    background-image: url('../../../../public/iconJS.png');
+  }
+  .proyects__icon--5{
+    top: 0;
+    right: 50px;
+    background-image: url('../../../../public/iconPostgress.png');
+  }
+  .proyects__icon--6{
+    top: 200px;
+    right: 350px;
+    background-image: url('../../../../public/iconReact.png');
+  }
+  .proyects__icon--7{
+    top: 600px;
+    right: 400px;
+    background-image: url('../../../../public/iconVisualStudio.png');
+  }
+}
