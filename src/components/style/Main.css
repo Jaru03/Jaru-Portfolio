@@ -5,4 +5,25 @@
 
 .main{
   position: relative;
+  .iconFloat__nav{
+    display: none;
+  }
 }
+
+@media (max-width:480px){
+  
+  .main{
+    position: relative;
+    .iconFloat__nav{
+      display: block;
+      position: absolute;
+      font-size: 2em;
+      z-index: 1;
+      top: 10px;
+      right: 10px;
+      
+      
+    }
+  }
+}
+

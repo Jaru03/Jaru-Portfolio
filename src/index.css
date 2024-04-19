@@ -14,16 +14,27 @@ ul{
 a{
   text-decoration: none;
   font-style: none;
+  font-family: inherit;
+  color: white;
 
-  &:active{
-    color: white;
-  }
-
-  &:visited{
-    color: white;
-  }
+  
 }
 
 *::after{
   font-style: none;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #001D3D; 
+     /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #FFD60A;    /* color of the scroll thumb */
+  border-radius: 20px;   
+  border: solid 2px #001D3D;    /* roundness of the scroll thumb */ /* creates padding around scroll thumb */
 }

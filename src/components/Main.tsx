@@ -6,9 +6,20 @@ import Proyects from "./main/Proyects"
 import Skills from "./main/Skills"
 import './style/Main.css'
 
-const Main = () => {
+type Props = {
+  setShowNavBar:any
+}
+
+const Main = ({setShowNavBar}:Props) => {
+
+  const handleShowNavBar = () => {
+    setShowNavBar(true)
+  }
+  
+
   return (
-    <main className="main">
+    <main className={`main`}>
+        <i onClick={handleShowNavBar} className='iconFloat__nav iconFloat__nav--menu bx bx-menu'></i>
         <Hero/>
         <Aboutme/>
         <Proyects/>

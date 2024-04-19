@@ -1,0 +1,77 @@
+{
+
+  "header":{
+    "home": "Home",
+    "aboutme": "About me",
+    "proyects": "Proyects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+
+  "hero":{
+    "hero__info":{
+      "p-welcome": "Hello! I am José Rico.",
+      "principalTittle": "Web",
+      "principalTittle-span": "Developer.",
+      "p-stadia": "I welcome you, I hope you enjoy your ",
+      "p-stadia-span": "stay."
+
+    },
+
+    "hero__icons":{
+      "icon__cv": "Download CV"
+    }
+  },
+
+  "aboutme":{
+    "tittle": "About me",
+    "description": "If you need a creative, self-taught, proactive person who can solve problems and take leadership when needed, that person is me."
+  },
+
+  "proyects":{
+    "tittle": "Proyects",
+    "proyect-1":{
+      "tittle": "Hotels-App",
+      "description": "Hotel page where you can see, filter and search for hotels, in addition to having a reservation section added to a user registration and login system"
+    },
+    "proyect-2":{
+      "tittle": "PokeDex",
+      "description": "Web based on the famous PokeApi, where you can search for Pokemons by name and type"
+    },
+    "proyect-3":{
+      "tittle": "Users-Crud",
+      "description": "Users Crud"
+    },
+    "proyect-4":{
+      "tittle": "Rick And Morty",
+      "description": "Web application based on the Rick And Morty API"
+    },
+    "proyect-5":{
+      "tittle": "Weather-App",
+      "description": "Web with which you can know the weather of your city in real time"
+    },
+    "proyect-6":{
+      "tittle": "Concepts-React",
+      "description": "First React Application, with which I learned its fundamental bases"
+    },
+    "button-demo":"See Demo"
+  },
+
+  "skills":{
+    "tittle":"Skills"
+  },
+
+  "contact":{
+    "tittle": "Contact",
+    "form":{
+      "tittle":"Form Contact",
+      "name":"First Name & Last Name",
+      "message": "Message",
+      "button": "Send"
+    }
+  },
+  
+  "footer":{
+    "description": "Website made by José Rico"
+  }
+}

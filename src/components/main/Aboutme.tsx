@@ -1,18 +1,19 @@
+import { useTranslation } from 'react-i18next';
 import './style/Aboutme.css'
 
 const Aboutme = () => {
+
+  const {t} = useTranslation()
+  
   return (
     <section className="aboutme">
-      <h2 className="aboutme__tittle subtittle">Sobre mí</h2>
+      <h2 className="aboutme__tittle subtittle">{t("aboutme.tittle")}</h2>
       <article className="aboutme__info">
         <div className='aboutme__icon'>
-          <img  src="" alt="" />
+          <img className='aboutme__character'src="../../../../CharacterMe.png" alt="" />
         </div>
         <p className='aboutme__text'>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime amet
-          ipsa itaque sapiente, doloribus accusantium omnis maiores consectetur.
-          Nihil placeat vel illum culpa eveniet deserunt animi excepturi ipsum?
-          Quae, aliquid?
+          {t("aboutme.description")}
         </p>
         <div className="aboutme__divFloat"></div>
       </article>

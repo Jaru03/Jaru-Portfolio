@@ -1,0 +1,80 @@
+{
+
+  "header":{
+    "home": "Inicio",
+    "aboutme": "Sobre mí",
+    "proyects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+
+  "hero":{
+    "hero__info":{
+      "p-welcome": "Hola! Soy José Rico.",
+      "principalTittle": "Desarrollador",
+      "principalTittle-span": "Web.",
+      "p-stadia": "Te doy la bienvenida, espero que disfrutes de tu ",
+      "p-stadia-span": "estadía."
+    },
+
+    "hero__icons":{
+      "icon__cv": "Descargar CV",
+      "icon__email": "E-mail",
+      "icon__whatsapp": "WhatsApp",
+      "icon__linkedin": "LinkedIn",
+      "icon__github": "GitHub"
+    }
+  },
+
+  "aboutme":{
+    "tittle": "Sobre mí",
+    "description": "Si necesitas una persona creativa, autodidacta, proactiva,  que pueda resolver problemas y tomar el liderazgo cuando se necesite, esa persona soy yo"
+  },
+
+  "proyects":{
+    "tittle": "Proyectos",
+    "proyect-1":{
+      "tittle": "App de Hoteles",
+      "description": "Podrás ver, filtrar y buscar hoteles, cuenta con un apartado de reservación y un sistema de registro e inicio de sesión de usuarios"
+    },
+    "proyect-2":{
+      "tittle": "PokeDex",
+      "description": "Aplicación web basada en la famosa PokeApi, donde se puede buscar Pokemons por nombre y tipo"
+    },
+    "proyect-3":{
+      "tittle": "Users-Crud",
+      "description": "Crud de usuarios"
+    },
+    "proyect-4":{
+      "tittle": "Rick And Morty",
+      "description": "Aplicación Web basada en la Api de Rick And Morty"
+    },
+    "proyect-5":{
+      "tittle": "Aplicación del clima",
+      "description": "Aplicación Web con la cual podrás conocer el clima de tu ciudad en tiempo real"
+    },
+    "proyect-6":{
+      "tittle": "Conceptos de React",
+      "description": "Primera Aplicación de React, con la cual pude aprender sus bases fundamentales"
+    },
+    "button-demo":"Ver Demo"
+  },
+
+  "skills":{
+    "tittle":"Habilidades"
+  },
+
+  "contact":{
+    "tittle": "Contacto",
+    "form":{
+      "tittle":"Formulario de Contacto",
+      "name":"Nombre y Apellido",
+      "message": "Mensaje",
+      "button": "Enviar"
+    }
+  },
+  
+  "footer":{
+    "description": "Página Web realizada por José Rico"
+  }
+}

@@ -1,9 +1,13 @@
+import { useTranslation } from 'react-i18next'
 import './style/Skills.css'
 
 const Skills = () => {
+
+  const {t} = useTranslation()
+
   return (
-    <section className="skills">
-      <h2 className="skills__tittle subtittle">Habilidades</h2>
+    <section id='skills' className="skills">
+      <h2 className="skills__tittle subtittle">{t("skills.tittle")}</h2>
       <div className="skills__container">
         <article className='skills__item'> <img className='skills__img' src="../../../../html.png" alt="" /></article>
         <article className='skills__item'><img className='skills__img' src="../../../../css.png" alt="" /></article>

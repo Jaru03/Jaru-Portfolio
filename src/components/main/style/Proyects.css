@@ -1,6 +1,7 @@
 .proyects{
   width: 100%;
   position: relative;
+  overflow: hidden;
     .proyects__tittle{
       padding-bottom: 40px;
     }
@@ -15,12 +16,100 @@
       flex-wrap: wrap;
 
       .proyectCard{
+        position: relative;
         width: 250px;
         height: 180px;
-        background-color: grey;
         border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid #FFD60A;
+
+        &:hover{
+          opacity: 50%;
+        }
+
+        .proyectCard__div{
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          opacity: 0;
+          border-radius: 10px;
+          padding: .5em;
+
+          &:hover{
+            background-color: white;
+            opacity: 90%;
+          }
+
+          header{
+            opacity: 100%;
+            color: black;
+            height: 15%;
+            width: 100%;
+            text-align: center;
+          }
+
+          main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 100%;
+            color: black;
+            height: 65%;
+            width: 100%;
+            text-wrap: pretty;
+          }
+
+          footer{
+            color: black;
+            height: 15%;
+            width: 100%;
+            padding: 0 .5em;
+          }
+        }
+
+        
+      }
+
+      .proyectCard__footer{
+        display: flex;
+        padding: .3em 0;
+        justify-content: space-around;
+        .proyectCard__button{
+          background-color: #FFD60A;
+          padding: .4em 1.5em;
+          justify-content: space-between;
+          border: none;
+          border-radius: 10px;
+          color: #001D3D;
+          font-weight: 500;
+        }
+      }
+
+
+      .proyectCard--1{
+        background-image: url('../../../../hotelsApp.png');
+      }
+      .proyectCard--2{
+        background-image: url('../../../../PokedexApp.png');
+      }
+      .proyectCard--3{
+        background-image: url('../../../../UsersCrud.png');
+      }
+      .proyectCard--4{
+        background-image: url('../../../../Rick&Morty.png');
+      }
+      .proyectCard--5{
+        background-image: url('../../../../WeatherApp.png');
+      }
+      .proyectCard--6{
+        background-image: url('../../../../ConceptosReact.png');
       }
     }
+
   .proyects__icon{
     position: absolute;
     width: 150px;
@@ -34,36 +123,47 @@
   .proyects__icon--1{
     top: 0;
     left: 0;
-    background-image: url('../../../../public/iconGit.png');
+    background-image: url('../../../../iconGit.png');
   }
   .proyects__icon--2{
     top: 200px;
     left: 350px;
-    background-image: url('../../../../public/iconGitHub.png');
+    background-image: url('../../../../iconGitHub.png');
   }
   .proyects__icon--3{
     top: 400px;
     left: 50px;
-    background-image: url('../../../../public/iconHtml.png');
+    background-image: url('../../../../iconHtml.png');
   }
   .proyects__icon--4{
     top: 300px;
     right: 0;
-    background-image: url('../../../../public/iconJS.png');
+    background-image: url('../../../../iconJS.png');
   }
   .proyects__icon--5{
     top: 0;
     right: 50px;
-    background-image: url('../../../../public/iconPostgress.png');
+    background-image: url('../../../../iconPostgress.png');
   }
   .proyects__icon--6{
     top: 200px;
     right: 350px;
-    background-image: url('../../../../public/iconReact.png');
+    background-image: url('../../../../iconReact.png');
   }
   .proyects__icon--7{
     top: 600px;
     right: 400px;
-    background-image: url('../../../../public/iconVisualStudio.png');
+    background-image: url('../../../../iconVisualStudio.png');
+  }
+}
+
+@media (max-width:680px){
+
+  .proyects{
+
+    .proyects__icon{
+      width: 80px;
+      height: 80px;
+    }
   }
 }
