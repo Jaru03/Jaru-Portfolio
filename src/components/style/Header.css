@@ -14,6 +14,7 @@
   .navbar{
     width: 100%;
     max-width: 1200px;
+    padding: 0 2em;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -38,7 +39,7 @@
 
     .navbar__toggles{
       display: flex;
-      gap: 1em;
+      gap: 2em;
       
       .navbar__toggle{
         width: 30px;
@@ -47,6 +48,8 @@
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
+        filter: drop-shadow(0 0 1.4rem #001D3D);
+        
       }
 
       .navbar__toggle--darkmode{
@@ -71,6 +74,18 @@
   }
 }
 
+@media (max-width: 600px){
+
+  .header{
+    .navbar{
+      .navbar__list{
+        font-size: 12px;
+      }
+    }
+  }
+
+}
+
 @media (max-width: 480px) {
 
   .header{
@@ -93,6 +108,7 @@
         right: 10px;
         font-size: 2em;
         color: red;
+        z-index: 1;
       }
 
       .navbar__list{

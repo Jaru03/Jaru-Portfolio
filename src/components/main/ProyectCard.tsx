@@ -5,11 +5,12 @@ type Props = {
   CardTittle:string
   CardInfo:string
   IconRout?:string
+  IconRout2?:string
   DemoLink:string
   GitHubLink:string
 } 
 
-const ProyectCard = ({CardId, CardTittle, CardInfo, IconRout, DemoLink, GitHubLink}:Props) => {
+const ProyectCard = ({CardId, CardTittle, CardInfo, IconRout, IconRout2, DemoLink, GitHubLink}:Props) => {
   
   const {t} = useTranslation()
 
@@ -30,7 +31,14 @@ const ProyectCard = ({CardId, CardTittle, CardInfo, IconRout, DemoLink, GitHubLi
 
           <footer>
             <img src="../../../../React.png" width={35} alt="" />
-            <img src={IconRout} width={35} alt="" />
+            
+            {
+              IconRout?<img src={IconRout} width={35} alt="" /> : null
+            }
+            
+            {
+              IconRout2?<img src={IconRout2} width={35} alt="" /> : null
+            }
           </footer>
         </div>
       </main>

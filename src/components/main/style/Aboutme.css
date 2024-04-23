@@ -5,7 +5,7 @@
   position: relative;
 
   .aboutme__info{
-    padding-top: 40px;
+    padding: 40px 1em 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -73,12 +73,17 @@
   }
 }
 
-@media (max-width:480px) {
+@media (max-width:830px) {
   .aboutme{
     height: 600px;
     .aboutme__info{
       display: flex;
       flex-direction: column;
+
+      .aboutme__text{
+        padding: 0 1em;
+        text-align: center;
+      }
     }
 
   }

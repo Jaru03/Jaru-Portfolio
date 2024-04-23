@@ -10,7 +10,8 @@
   .contact__form{
     background-color: #001D3D;
     border-radius: 10px;
-    width: 380px;
+    max-width: 380px;
+    width: 80vw;
     height: 450px;
     margin: auto;
     display: flex;

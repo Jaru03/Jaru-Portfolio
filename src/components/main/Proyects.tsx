@@ -12,7 +12,7 @@ const Proyects = () => {
 
       <div className="container__card">
         <ProyectCard DemoLink="https://hotels-app-six.vercel.app/#/" GitHubLink="https://github.com/Jaru03/Hotels-App " IconRout='../../../../redux.svg' CardInfo={t("proyects.proyect-1.description")} CardTittle={t("proyects.proyect-1.tittle")} CardId={1}/>
-        <ProyectCard DemoLink="https://poke-api-phi-six.vercel.app/" GitHubLink="https://github.com/Jaru03/PokeAPI" IconRout='../../../../tailwind.png' CardInfo={t("proyects.proyect-2.description")} CardTittle={t("proyects.proyect-2.tittle")} CardId={2}/>
+        <ProyectCard DemoLink="https://poke-api-phi-six.vercel.app/" GitHubLink="https://github.com/Jaru03/PokeAPI" IconRout='../../../../tailwind.png' IconRout2='../../../../redux.svg' CardInfo={t("proyects.proyect-2.description")} CardTittle={t("proyects.proyect-2.tittle")} CardId={2}/>
         <ProyectCard DemoLink="https://users-crud-sand.vercel.app/" GitHubLink="https://github.com/Jaru03/Users-CRUD" IconRout='../../../../tailwind.png' CardInfo={t("proyects.proyect-3.description")} CardTittle={t("proyects.proyect-3.tittle")} CardId={3}/>
         <ProyectCard DemoLink="https://rick-and-morty-ten-silk.vercel.app/" GitHubLink="https://github.com/Jaru03/RickAndMorty" IconRout='../../../../tailwind.png' CardInfo={t("proyects.proyect-4.description")} CardTittle={t("proyects.proyect-4.tittle")} CardId={4}/>
         <ProyectCard DemoLink="https://weather-app-nine-peach.vercel.app/" GitHubLink="https://github.com/Jaru03/Weather-App" CardInfo={t("proyects.proyect-5.description")} CardTittle={t("proyects.proyect-5.tittle")} CardId={5}/>
