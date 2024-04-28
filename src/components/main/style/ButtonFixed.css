@@ -17,10 +17,10 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    transition: ease .3s;
 
     &:hover{
       transform: scale(1.2);
-      transition: ease .3s;
     }
 
     .buttonFix__link{

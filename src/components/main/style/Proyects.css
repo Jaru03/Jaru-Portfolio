@@ -101,6 +101,11 @@
           border-radius: 10px;
           color: #001D3D;
           font-weight: 500;
+          transition: .1s ease;
+
+          &:hover{
+            opacity: .9;
+          }
         }
       }
 
