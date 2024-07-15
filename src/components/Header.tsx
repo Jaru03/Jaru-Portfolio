@@ -51,7 +51,6 @@ const Header = ({showNavBar, setShowNavBar}:Props) => {
             }
           </div>
           
-          <div className="navbar__toggle navbar__toggle--darkmode"></div>
         </section>
       </nav>
     </header>

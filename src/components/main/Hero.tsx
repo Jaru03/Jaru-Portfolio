@@ -14,9 +14,9 @@ const Hero = () => {
             <p className='hero__text hero__welcome'>{t('hero.hero__info.p-stadia')}<span className='hero__highlight'>{t('hero.hero__info.p-stadia-span')}</span></p>
           </div>
         <ul className='hero__list'>
-          <li className='hero__item'><a target='_blank' className='hero__link' href=""> <img className='hero__link--img'  src="../CV.png" alt="" />{t("hero.hero__icons.icon__cv")}</a></li>
+          <li className='hero__item'><a target='_blank' className='hero__link' href="../../../CV Jose Rico.pdf"> <img className='hero__link--img'  src="../CV.png" alt="" />{t("hero.hero__icons.icon__cv")}</a></li>
           <li className='hero__item'><a target='_blank' className='hero__link' href="mailto:josearudeveloper@gmail.com?Subject=Hola!%20Acabo%20de%20ver%20tu%20portafolio..."><img className='hero__link--img' src="../email.png" alt="" /> E-mail</a></li>
-          <li className='hero__item'><a target='_blank' className='hero__link' href="https://wa.me/+584246299955?text=Hola!%20Acabo%20de%20ver%20tu%20portafolio..."> <img className='hero__link--img' src="../whatsapp.png" alt="" />WhatsApp</a></li>
+          <li className='hero__item'><a target='_blank' className='hero__link' href="https://wa.me/+34614239959?text=Hola!%20Acabo%20de%20ver%20tu%20portafolio..."> <img className='hero__link--img' src="../whatsapp.png" alt="" />WhatsApp</a></li>
           <li className='hero__item'><a target='_blank' className='hero__link' href="https://www.linkedin.com/in/jos%C3%A9-alberto-rico-urquia-190b282b3/"><img className='hero__link--img' src="../linkedIn.png" alt="" />LinkedIn</a></li>
           <li className='hero__item'><a target='_blank' className='hero__link' href="https://github.com/Jaru03"><img className='hero__link--img' src="../github.png" alt="" />GitHub</a></li>
         </ul>
